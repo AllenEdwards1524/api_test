@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<settings>
+	<localRepository>/AllenTest/Repository
+	</localRepository>
+	<proxies>
+		<proxy>
+			<id />
+			<active />
+			<protocol>https</protocol>
+			<username />
+			<password />
+			<host>api.weatherbit.io</host>
+			<nonProxyHosts />
+		</proxy>
+	</proxies>
+	<profiles>
+		<profile>
+			<id>central</id>
+			<repositories>
+				<repository>
+					<id>central</id>
+					<url>https://repo1.maven.org/maven2</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+				</repository>
+			</repositories>
+			<pluginRepositories>
+				<pluginRepository>
+					<id>central</id>
+					<url>https://repo1.maven.org/maven2</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+				</pluginRepository>
+				<pluginRepository>
+					<id>sonatype-snapshots</id>
+					<url>https://oss.sonatype.org/content/repositories/snapshots </url>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</pluginRepository>
+			</pluginRepositories>
+		</profile>
+	</profiles>
+	<activeProfiles>
+		<activeProfile>central</activeProfile>
+	</activeProfiles>
+	<servers>
+		<server>
+			<id>central</id>
+			<username />
+			<password />
+		</server>
+	</servers>
+</settings>
