@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue May 21 17:02:07 AEST 2019
+0e457066c91fff7265565a4b26662058120af9dd@api.weatherbit.io\:8080>0e457066c91fff7265565a4b26662058120af9dd@default-central-https\://repo1.maven.org/maven2/.lastUpdated=1558422127620
+https\://repo1.maven.org/maven2/.error=Could not transfer artifact org.apache.maven.plugins\:maven-clean-plugin\:pom\:2.5 from/to central (https\://repo1.maven.org/maven2)\: Connection reset
