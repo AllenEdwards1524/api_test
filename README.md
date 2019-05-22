@@ -16,3 +16,5 @@ b) Get forecast
 ```bash
 mvn clean test
 ```
+## Integrate with Circle CI ##
+* This test is already integrated with circle CI, once any change is made to the test cases and updated in git then it will automatically trigger CI pipeline from master
