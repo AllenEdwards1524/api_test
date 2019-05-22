@@ -6,7 +6,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(plugin = { "html:target/cucumber-html-report", "json:target/cucumber.json",
-		"junit:target/cucumber-junit-report/allcukes.xml" }, tags = { "@currentWeatherData" }, features = { "feature" })
+		"junit:target/cucumber-junit-report/allcukes.xml" }, tags = { "@all" }, features = { "feature" })
 
 public class TestRunner {
 

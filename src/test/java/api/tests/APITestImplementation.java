@@ -11,7 +11,7 @@ import io.restassured.specification.RequestSpecification;
 import org.codehaus.jettison.json.JSONObject;
 
 public class APITestImplementation {
-	private final Map<String, String> headers = new HashMap<>();
+	private final Map<String, String> headers = new HashMap<String, String>();
 	private final CookieFilter cookieFilter = new CookieFilter();
 	private static Response response_restAssured;
 	private static APITestImplementation instance = null;
